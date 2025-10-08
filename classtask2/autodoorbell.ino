@@ -42,7 +42,7 @@ Serial.print(cm);
 
 Serial.println(" cm");
 
-if (cm > 0 < 150) {
+if (cm < 15) {
 
 digitalWrite(ledPin, HIGH);
 
